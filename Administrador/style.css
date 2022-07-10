@@ -1,0 +1,84 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.label{
+    font-weight: 800;
+    font-size: 25px;
+    color: 0D3B66;
+}
+
+div.pagina{
+    width: 100%;
+    margin: auto;
+}
+
+/*navbar*/
+div#menu{    
+    padding: 2% 5%;
+    display: flex;
+    justify-content: flex-start; 
+    background-color: #0D3B66;  
+    color: #F1E0C5;
+  }
+
+  a.botao{
+      margin: auto 15% 5% 15%;
+      padding: 2.5% 8%; 
+      background-color: #119DA4;
+      color: #F1E0C5;
+      list-style: none;
+      border-radius: 5%;  
+      z-index: 1;
+  }
+  /*Header*/
+    header{
+        background-color: #119DA4;
+        color: #F1E0C5;  
+        margin-left: -2%;
+        margin-right: auto;
+        padding: 1% 3%;
+    }
+
+    div.divHeader{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-evenly;
+        padding: 2px 26px;
+    }
+    
+    div#homen1{   
+        align-self: flex-end;
+    }
+
+  /*Section*/
+  
+  div.sessaoCurso{
+        margin: 5% 5%;
+        padding: 2% 2%;
+        color: #F1E0C5;
+    }
+
+
+    div.cardCursos{ 
+        background-color: #6D9DC5;
+    }
+
+    div.curso{
+        display: flex;
+        justify-content: flex-start;
+        border-style: solid;    
+        color:#0D3B66;
+        padding: 5% 5%;
+    }
+
+  
+  /*Navbar*/
+
+footer{
+     margin: auto auto;
+     padding: 1% 3%;
+     background-color: #EABDA8; 
+     color: #0D3B66;  
+}
